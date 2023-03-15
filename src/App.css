@@ -1,0 +1,53 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: 7rem repeat(3, 1fr) 10rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+    "header header header header header"
+    "aside main main main main"
+    "aside main main main main"
+    "aside main main main main"
+    "aside main main main main";
+  min-height: 100vh;
+}
+body {
+  margin: 0rem;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  background: rgb(232, 163, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 163, 255, 1) 0%,
+    rgba(255, 205, 245, 1) 35%,
+    rgba(255, 205, 245, 1) 63%,
+    rgba(232, 163, 255, 1) 100%
+  );
+}
+header {
+  grid-area: header;
+  background-color: rgba(104, 107, 107, 0);
+  margin: 0rem;
+  padding: 2rem;
+  color: #ffffff;
+  border: 1px solid white;
+}
+aside {
+  grid-area: aside;
+  border: 1px solid white;
+
+  position: sticky;
+  top: 0px;
+  background-color: #23272a;
+  color: #ffffff;
+}
+main {
+  grid-area: main;
+  border: 1px solid white;
+  background-color: #2c2f33;
+}
