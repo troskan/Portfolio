@@ -4,6 +4,7 @@ import "./App.css";
 import PortfolioList from "./components/PortfolioList";
 import AsideHeader from "./components/AsideHeader";
 import AsideNav from "./components/AsideNav";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <h1 style={{ margin: 0 }}>Alvin Strandberg Portfolio</h1>
       </header>
       <main>
+        <Education />
         <PortfolioList />
       </main>
       <aside>

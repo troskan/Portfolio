@@ -40,12 +40,32 @@ header {
   padding: 2rem;
   color: #ffffff;
 }
+header h1 {
+  margin: 0rem;
+}
+.white-line {
+  margin: 0;
+  border: none;
+  height: 0.1rem;
+  display: block;
+  background-color: rgb(110, 110, 110);
+  width: 100%;
+}
+h2 {
+  color: rgb(232, 163, 255);
+  color: linear-gradient(
+    90deg,
+    rgba(232, 163, 255, 1) 0%,
+    rgba(255, 205, 245, 1) 35%,
+    rgba(255, 205, 245, 1) 63%,
+    rgba(232, 163, 255, 1) 100%
+  );
+}
 aside {
   position: sticky;
   top: 0px;
   background-color: #23272a;
   color: #ffffff;
-  border: 1px solid white;
 }
 .aside-sticky {
   position: sticky;
@@ -55,16 +75,137 @@ aside {
 }
 aside {
   grid-area: aside;
-  border: 1px solid white;
 
   position: sticky;
   top: 0px;
   background-color: #23272a;
   color: #ffffff;
 }
+aside .aside-nav ul {
+  margin: 0rem;
+  padding: 0rem;
+}
 main {
   grid-area: main;
-  border: 1px solid white;
   background-color: #2c2f33;
   width: 100%;
+  height: auto;
+  color: #ffffff;
+}
+main .main-header {
+  margin-right: 3%;
+  margin-left: 2.5%;
+}
+main #profile-pic {
+  display: inline-flex;
+  width: 30%;
+  color: #ffffff4e;
+}
+main li {
+  margin-left: 5%;
+  margin-right: 10%;
+
+  text-align: center;
+}
+.school-container {
+  /* border: 1px solid rgba(255, 255, 255, 0.596); */
+  display: flexbox;
+}
+.xp-container {
+  display: block;
+}
+.xpbar {
+  display: inline-flex;
+  margin-left: 0;
+  height: 1.4rem;
+  width: 30%;
+  background-color: rgb(215, 239, 255);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 0.3rem;
+}
+main h3 {
+  margin-bottom: 0rem;
+  display: block;
+}
+#xpbar-1 {
+  background-color: rgb(11, 170, 83);
+  height: 100%;
+  width: 60%;
+  border-radius: 0.3rem;
+}
+#xpbar-1,
+#xpbar-2,
+#xpbar-3,
+#xpbar-4 {
+  background-color: rgb(11, 170, 83);
+  height: 100%;
+  width: 100%;
+  border-radius: 0.3rem;
+}
+#xpbar-5 {
+  background-color: rgb(11, 170, 83);
+  height: 100%;
+  width: 55%;
+  border-radius: 0.3rem;
+}
+#xpbar-6,
+#xpbar-7,
+#xpbar-8 {
+  background-color: rgb(48, 48, 48);
+  height: 100%;
+  width: 100%;
+  border-radius: 0.3rem;
+}
+.portfol-container {
+}
+.box-container {
+  display: inline-flex;
+  max-width: 24.3%;
+}
+.portfol-item {
+  background-color: #0222319c;
+
+  padding: 2%;
+  height: 19rem;
+  width: 100%;
+  border: 1px solid rgb(232, 163, 255, 15%);
+  border-radius: 0.2rem;
+}
+
+.portfol-item p,
+.portfol-item h3 {
+  text-align: center;
+}
+.portfol-item p {
+  height: 9rem;
+}
+.portfol-list-container {
+  display: flexbox;
+}
+.portfol-list {
+  align-items: flex-end;
+  padding: 0rem;
+  margin: 0rem;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+#email {
+  font-size: 18px;
+}
+a:hover {
+  text-decoration: underline;
+  background-color: rgba(255, 230, 148, 0.212);
+}
+a {
+  text-decoration: none;
+  color: rgb(180, 172, 255);
+  color: linear-gradient(
+    90deg,
+    rgba(232, 163, 255, 1) 0%,
+    rgba(255, 205, 245, 1) 35%,
+    rgba(255, 205, 245, 1) 63%,
+    rgba(232, 163, 255, 1) 100%
+  );
 }
