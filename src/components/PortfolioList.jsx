@@ -44,7 +44,12 @@ function PortfolioList() {
           data.map(({ id, name, html_url }) => (
             <li key={id}>
               <h3>{name}</h3>
-              <a href={html_url} target="_blank" rel="noreferrer">
+              <a
+                class="github-url"
+                href={html_url}
+                target="_blank"
+                rel="noreferrer"
+              >
                 {html_url}
               </a>
             </li>
