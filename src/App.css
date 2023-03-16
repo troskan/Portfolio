@@ -256,3 +256,26 @@ aside p a {
     width: 60%;
   }
 }
+
+/* Spinning logo test */
+.spinning-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.spinning-logo img {
+  height: 50px;
+  width: 50px;
+  animation: spin 6s linear infinite;
+  opacity: 0.3;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
