@@ -41,7 +41,13 @@ header {
   color: #ffffff;
 }
 header h1 {
-  margin: 0rem;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 .white-line {
   margin: 0;
@@ -51,6 +57,7 @@ header h1 {
   background-color: rgb(110, 110, 110);
   width: 100%;
 }
+
 h2 {
   color: rgb(232, 163, 255);
   color: linear-gradient(
@@ -84,6 +91,10 @@ aside {
 aside .aside-nav ul {
   margin: 0rem;
   padding: 0rem;
+}
+.icons-size {
+  width: 17px !important;
+  height: 17px !important;
 }
 main {
   grid-area: main;
@@ -201,11 +212,47 @@ a:hover {
 a {
   text-decoration: none;
   color: rgb(180, 172, 255);
-  color: linear-gradient(
-    90deg,
-    rgba(232, 163, 255, 1) 0%,
-    rgba(255, 205, 245, 1) 35%,
-    rgba(255, 205, 245, 1) 63%,
-    rgba(232, 163, 255, 1) 100%
-  );
+}
+aside a {
+  color: rgb(180, 172, 255);
+}
+#time-till-graduation {
+  color: green;
+}
+
+aside p a {
+  margin-left: 2%;
+}
+@media only screen and (max-width: 768px) {
+  main {
+    width: 60%;
+  }
+  aside {
+    width: 40%;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .xpbar {
+    width: 80%;
+  }
+  .box-container {
+    display: flex;
+    max-width: 100%;
+  }
+  .portfol-item {
+  }
+  .portfol-box {
+  }
+  #footer-mail {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #footer-mail {
+    font-size: 14px;
+  }
+  main #profile-pic {
+    width: 60%;
+  }
 }
