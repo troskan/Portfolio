@@ -298,3 +298,33 @@ aside p a {
     font-size: 12px;
   }
 }
+@media only screen and (max-width: 768px) {
+  #footer-mail {
+    font-size: 14px;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  main #profile-pic {
+    width: 60%;
+  }
+  .spinning-logo img {
+    height: 20px;
+    width: 20px;
+  }
+  .grid-container {
+    grid-template-areas:
+      "header header header header header"
+      "aside aside main main main"
+      "aside aside main main main"
+      "aside aside main main main"
+      "aside aside main main main";
+  }
+  li .github-url {
+    display: inline-block;
+    max-width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    font-size: 12px;
+  }
+}
