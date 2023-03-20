@@ -11,6 +11,7 @@
   display: grid;
   grid-template-rows: 7rem repeat(3, 1fr) 10rem;
   grid-template-columns: repeat(5, 1fr);
+
   grid-template-areas:
     "header header header header header"
     "aside main main main main"
@@ -320,6 +321,7 @@ aside p a {
       "aside aside main main main"
       "aside aside main main main";
   }
+
   li .github-url {
     display: inline-block;
     max-width: 100%;

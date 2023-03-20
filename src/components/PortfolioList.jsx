@@ -27,6 +27,7 @@ function PortfolioList() {
       });
     // The empty array '[]' means that this effect will run only once, when the component mounts
   }, []);
+  console.log(data);
 
   // Render the component
   return (

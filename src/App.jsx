@@ -22,7 +22,6 @@ function App() {
         <div className="main-header">
           <PortfolioBoxes />
           <Education />
-          <PortfolioList />
           <AboutMe />
         </div>
       </main>
