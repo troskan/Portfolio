@@ -86,16 +86,13 @@ function PortfolioBoxes() {
         <div className="box-container">
           <div className="portfol-item">
             <h3>Portfolio</h3>
-            <p>
-              The portfolio you are browsing right now, written in HTML, CSS and
-              JS
-            </p>
+            <p>The portfolio you are browsing right now, React + Vite</p>
             <div className="portfol-list-container">
               <ul className="portfol-list">
                 <li>
                   <a
                     target="_blank"
-                    href="https://github.com/troskan/PortfolioWeb"
+                    href="https://github.com/troskan/labb2-react"
                   >
                     Github Repo
                   </a>
