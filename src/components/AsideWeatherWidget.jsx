@@ -35,8 +35,10 @@ export default function AsideWeatherWidget() {
       {data && (
         <ul className="weather-list">
           <li>Falkenberg, Sweden</li>
-          <li>{currentTemp}°C</li>
-          <li>{data.current.weather[0].main}</li>
+          <li>
+            {data.current.weather[0].main} / {currentTemp}°C
+          </li>
+          <li></li>
           <li>
             <img src={weatherIconUrl} alt="Image of current weather" />
           </li>
