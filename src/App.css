@@ -56,8 +56,10 @@ header h1 {
   color: #6bd0ff;
   background-color: #000000bc;
   border-radius: 25px;
-  transform: scale(0);
-  transform-origin: center;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 .white-line {
   margin: 0;
@@ -67,7 +69,14 @@ header h1 {
   background-color: rgb(110, 110, 110);
   width: 100%;
 }
-
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 h2 {
   color: rgb(232, 163, 255);
   color: linear-gradient(
@@ -201,7 +210,7 @@ main h3 {
   width: 100%;
   border: 1px solid rgb(232, 163, 255, 15%);
   border-radius: 0.4rem;
-  margin: 1%;
+  margin: 0.4rem;
 }
 
 .portfol-item p,
@@ -226,17 +235,19 @@ li {
 #email {
   font-size: 18px;
 }
-a:hover {
+#root a:hover {
   text-decoration: underline;
-  background-color: rgba(255, 230, 148, 0.212);
+  color: rgb(201, 164, 255);
 }
-a {
+a,
+a:visited,
+a:active {
+}
+body a {
   text-decoration: none;
-  color: rgb(180, 172, 255);
+  color: rgb(201, 164, 255);
 }
-aside a {
-  color: rgb(180, 172, 255);
-}
+
 #time-till-graduation {
   color: rgb(57, 234, 113);
 }
@@ -349,16 +360,10 @@ aside p a {
 }
 header h1 {
   /* ... */
-  animation-name: scale-up;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
-@keyframes scale-up {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
+header h1.show {
+  opacity: 1;
 }
