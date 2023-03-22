@@ -4,6 +4,7 @@ import "./App.css";
 import PortfolioList from "./components/PortfolioList";
 import AsideHeader from "./components/AsideHeader";
 import AsideNav from "./components/AsideNav";
+import AsideWeatherWidget from "./components/AsideWeatherWidget";
 import Education from "./components/Education";
 import AboutMe from "./components/AboutMe";
 import PortfolioBoxes from "./components/PortfolioBoxes";
@@ -29,6 +30,7 @@ function App() {
         <div className="aside-sticky">
           <AsideHeader />
           <AsideNav />
+          <AsideWeatherWidget />
         </div>
       </aside>
     </div>

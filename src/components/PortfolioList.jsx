@@ -13,7 +13,6 @@ function PortfolioList() {
   useEffect(() => {
     // Fetch data from the GitHub API
     fetch("https://api.github.com/users/troskan/starred")
-      // When the response is received, convert it to JSON
       .then((response) => response.json())
       // After converting to JSON, store the data in the 'data' state variable and set 'loading' to 'false'
       .then((actualData) => {
