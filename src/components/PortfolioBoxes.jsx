@@ -7,13 +7,16 @@ function PortfolioBoxes() {
       <section className="portfol-container">
         <div className="box-container">
           <div className="portfol-item">
-            <h3>Quiz Game</h3>
-            <p>Answer the correct questions to gain points and highscore.</p>
+            <h3>Entity Framework</h3>
+            <p>
+              Using Entity Framework to scaffold and handle data from database.
+            </p>
+
             <ul className="portfol-list">
               <li>
                 <a
                   target="_blank"
-                  href="https://github.com/troskan/troskan.github.io/blob/main/webquiz.html"
+                  href="https://github.com/troskan/Database_Labb_4"
                 >
                   Github Repo
                 </a>
@@ -21,14 +24,15 @@ function PortfolioBoxes() {
               <li>
                 <a
                   target="_blank"
-                  href="https://troskan.github.io/webquiz.html"
+                  href="https://github.com/troskan/Database_Labb_4"
                 >
-                  Play Game
+                  Readme.md
                 </a>
               </li>
             </ul>
           </div>
         </div>
+
         <div className="box-container">
           <div className="portfol-item">
             <h3>Bank App</h3>
@@ -85,16 +89,13 @@ function PortfolioBoxes() {
         </div> */}
         <div className="box-container">
           <div className="portfol-item">
-            <h3>Entity Framework</h3>
-            <p>
-              Using Entity Framework to scaffold and handle data from database.
-            </p>
-
+            <h3>Quiz Game</h3>
+            <p>Answer the correct questions to gain points and highscore.</p>
             <ul className="portfol-list">
               <li>
                 <a
                   target="_blank"
-                  href="https://github.com/troskan/Database_Labb_4"
+                  href="https://github.com/troskan/troskan.github.io/blob/main/webquiz.html"
                 >
                   Github Repo
                 </a>
@@ -102,9 +103,9 @@ function PortfolioBoxes() {
               <li>
                 <a
                   target="_blank"
-                  href="https://github.com/troskan/Database_Labb_4"
+                  href="https://troskan.github.io/webquiz.html"
                 >
-                  Readme.md
+                  Play Game
                 </a>
               </li>
             </ul>
