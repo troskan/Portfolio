@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import ReactDOM from "react-dom";
-import graduationTimer from "../js/graduation-timer";
+// import graduationTimer from "../js/graduation-timer";
 
 function AsideNav() {
-  useEffect(() => {
-    graduationTimer();
-  }, []);
+  // useEffect(() => {
+  //   graduationTimer();
+  // }, []);
 
   return (
     <>
@@ -22,11 +22,11 @@ function AsideNav() {
           </li>
         </ul>
       </nav>
-      <section>
+      {/* <section>
         <p>
           Days until graduation: <span id="time-till-graduation">x</span>
         </p>
-      </section>
+      </section> */}
     </>
   );
 }

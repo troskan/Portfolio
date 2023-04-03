@@ -52,7 +52,7 @@ function PortfolioBoxes() {
             </ul>
           </div>
         </div>
-        <div className="box-container">
+        {/* <div className="box-container">
           <div className="portfol-item">
             <h3>Road-To-React</h3>
             <p>
@@ -76,6 +76,33 @@ function PortfolioBoxes() {
                 <a
                   target="_blank"
                   href="https://github.com/troskan/Road-To-React"
+                >
+                  Readme.md
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div> */}
+        <div className="box-container">
+          <div className="portfol-item">
+            <h3>Entity Framework</h3>
+            <p>
+              Using Entity Framework to scaffold and handle data from database.
+            </p>
+
+            <ul className="portfol-list">
+              <li>
+                <a
+                  target="_blank"
+                  href="https://github.com/troskan/Database_Labb_4"
+                >
+                  Github Repo
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://github.com/troskan/Database_Labb_4"
                 >
                   Readme.md
                 </a>
