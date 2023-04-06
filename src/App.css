@@ -265,15 +265,13 @@ main h3 {
   border-radius: 0.3rem;
 }
 
-.portfol-container {
-}
 .box-container {
   display: inline-flex;
   max-width: 24.3%;
 }
 .portfol-item {
+  position: relative;
   background-color: #0222319c;
-
   padding: 2%;
   height: 19rem;
   width: 100%;
@@ -281,17 +279,50 @@ main h3 {
   border-radius: 0.4rem;
   margin: 0.4rem;
 }
+#portfol-item-1 {
+  background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#portfol-item-2 {
+  background-image: url("https://images.unsplash.com/photo-1543699539-33a389c5dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#portfol-item-3 {
+  background-image: url("https://images.unsplash.com/photo-1531594835867-65b60cc9e4ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#portfol-item-4 {
+  background-image: url("https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
 .portfol-item p,
 .portfol-item h3 {
   text-align: center;
 }
+
 .portfol-item p {
-  height: 9rem;
+  /* height: 9rem; */
+  font-weight: bold;
+  color: white;
+  text-shadow: -1.2px 1.2px 0 rgb(0, 0, 0), 1.2px 1.2px 0 black,
+    1.2px 1.2px 0 black, 1.2px 1.2px 0 black;
+}
+.portfol-spacing {
+  height: 5rem;
 }
 .portfol-list-container {
   display: flexbox;
 }
+
 .portfol-list {
   align-items: flex-end;
   padding: 0rem;
@@ -333,6 +364,7 @@ aside p a {
   display: flex;
   flex-direction: column;
   width: 30rem;
+  margin-bottom: 14rem;
 }
 
 @media only screen and (max-width: 768px) {
