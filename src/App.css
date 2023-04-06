@@ -137,10 +137,24 @@ main .main-header {
   margin-left: 2.5%;
 }
 main #profile-pic {
-  display: inline-flex;
-  width: 30%;
-  color: #ffffff4e;
 }
+.about-me-section {
+  display: flex;
+  flex-direction: column;
+}
+.text-pic {
+  display: flex;
+}
+#profile-pic {
+  width: 20%;
+  height: 20%;
+}
+.about-me {
+}
+.about-me {
+  max-width: 45rem;
+}
+
 main ul {
   padding-left: 0rem;
 }
@@ -339,6 +353,10 @@ aside p a {
   #footer-mail {
     font-size: 16px;
   }
+  #profile-pic {
+    width: 10rem;
+    height: 10rem;
+  }
 }
 /* Spinning logo test */
 .spinning-logo {
@@ -370,9 +388,29 @@ aside p a {
   header h1 {
     font-size: 20px;
   }
-  main #profile-pic {
-    width: 60%;
+  .about-me-section {
+    flex-wrap: wrap;
   }
+  .text-pic {
+    flex-direction: column;
+  }
+  #profile-pic {
+    width: 20%;
+    height: 20%;
+  }
+  .about-me {
+    max-width: 100rem;
+  }
+  .about-me-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /* #profile-pic {
+    width: 30rem;
+    height: 30rem;
+  } */
+
   .spinning-logo img {
     height: 20px;
     width: 20px;
@@ -445,9 +483,4 @@ header h1 {
 
 header h1.show {
   opacity: 1;
-}
-
-#profile-pic {
-  display: flex;
-  justify-content: center;
 }
