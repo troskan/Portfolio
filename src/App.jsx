@@ -6,6 +6,7 @@ import AsideHeader from "./components/AsideHeader";
 import AsideNav from "./components/AsideNav";
 import AsideWeatherWidget from "./components/AsideWeatherWidget";
 import Education from "./components/Education";
+import Skills from "./components/Skills";
 import AboutMe from "./components/AboutMe";
 import PortfolioBoxes from "./components/PortfolioBoxes";
 import SpinningLogo from "./components/SpinningReactLogo";
@@ -21,9 +22,13 @@ function App() {
       </header>
       <main>
         <div className="main-header">
-          <PortfolioBoxes />
-          <Education />
           <AboutMe />
+
+          <PortfolioBoxes />
+          <div className="bar-container">
+            <Skills />
+            <Education />
+          </div>
         </div>
       </main>
       <aside>

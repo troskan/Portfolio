@@ -20,6 +20,9 @@
     "aside main main main main";
   min-height: 100vh;
 }
+.about-me {
+  text-align: left;
+}
 body {
   margin: 0rem;
   padding: 0rem;
@@ -158,7 +161,7 @@ main li {
   display: inline-flex;
   margin-left: 0;
   height: 1.4rem;
-  width: 30%;
+  width: 80%;
   background-color: rgb(215, 239, 255);
   border: 2px solid rgb(255, 255, 255);
   border-radius: 0.3rem;
@@ -176,19 +179,20 @@ main h3 {
 #xpbar-1,
 #xpbar-2,
 #xpbar-3,
-#xpbar-4 {
+#xpbar-4,
+#xpbar-5 {
   background-color: rgb(11, 170, 83);
   height: 100%;
   width: 100%;
   border-radius: 0.3rem;
 }
-#xpbar-5 {
+#xpbar-6 {
   background-color: rgb(11, 170, 83);
   height: 100%;
-  width: 55%;
+  width: 10%;
   border-radius: 0.3rem;
 }
-#xpbar-6,
+
 #xpbar-7,
 #xpbar-8 {
   background-color: rgb(48, 48, 48);
@@ -196,6 +200,57 @@ main h3 {
   width: 100%;
   border-radius: 0.3rem;
 }
+
+#s-xpbar-1 {
+  background-color: rgb(11, 170, 83);
+  height: 100%;
+  width: 60%;
+  border-radius: 0.3rem;
+}
+#s-xpbar-1 {
+  background-color: rgb(11, 170, 83);
+  height: 100%;
+  width: 55%;
+  border-radius: 0.3rem;
+}
+#s-xpbar-2 {
+  background-color: rgb(11, 170, 83);
+  height: 100%;
+  width: 50%;
+  border-radius: 0.3rem;
+}
+#s-xpbar-3 {
+  background-color: rgb(11, 170, 83);
+  height: 100%;
+  width: 40%;
+  border-radius: 0.3rem;
+}
+#s-xpbar-4 {
+  background-color: rgb(11, 170, 83);
+  height: 100%;
+  width: 46%;
+  border-radius: 0.3rem;
+}
+#s-xpbar-5 {
+  background-color: rgb(11, 170, 83);
+  height: 100%;
+  width: 76%;
+  border-radius: 0.3rem;
+}
+
+#s-xpbar-6 {
+  background-color: rgb(11, 170, 83);
+  height: 100%;
+  width: 48%;
+  border-radius: 0.3rem;
+}
+#s-xpbar-7 {
+  background-color: rgb(11, 170, 83);
+  height: 100%;
+  width: 70%;
+  border-radius: 0.3rem;
+}
+
 .portfol-container {
 }
 .box-container {
@@ -255,6 +310,17 @@ body a {
 aside p a {
   margin-left: 2%;
 }
+
+.bar-container {
+  display: flex;
+  justify-content: space-around;
+}
+.eduskill-container {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+}
+
 @media only screen and (max-width: 768px) {
   h3 {
     font-size: 16px;
@@ -331,11 +397,24 @@ aside p a {
   #footer-mail {
     font-size: 14px;
   }
+  .about-me {
+    text-align: center;
+  }
   header h1 {
     font-size: 20px;
   }
   main #profile-pic {
     width: 60%;
+  }
+  .bar-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .eduskill-container {
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
   }
   .spinning-logo img {
     height: 20px;
@@ -366,4 +445,9 @@ header h1 {
 
 header h1.show {
   opacity: 1;
+}
+
+#profile-pic {
+  display: flex;
+  justify-content: center;
 }

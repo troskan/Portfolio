@@ -12,13 +12,16 @@ function AsideNav() {
       <nav className="aside-nav">
         <ul>
           <li>
+            <a href="#aboutme">👋About me</a>
+          </li>
+          <li>
             <a href="#projects">👨‍💻Projects</a>
           </li>
           <li>
-            <a href="#education">📚Education</a>
+            <a href="#skills">🏆Skills</a>
           </li>
           <li>
-            <a href="#aboutme">👋About me</a>
+            <a href="#education">📚Education</a>
           </li>
         </ul>
       </nav>

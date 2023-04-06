@@ -4,7 +4,7 @@ function AboutMe() {
   return (
     <section>
       <h2 id="aboutme">About me</h2>
-      <p>
+      <p className="about-me">
         My name is Alvin and I'm 27 years old. I have been working as a
         carpenter for 7 years and have just switched career to programming which
         I totally <strong>love!</strong> <br />
