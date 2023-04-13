@@ -269,39 +269,75 @@ main h3 {
   display: inline-flex;
   max-width: 24.3%;
 }
+
 .portfol-item {
   position: relative;
   background-color: #0222319c;
   padding: 2%;
-  height: 19rem;
-  width: 100%;
+  height: 16rem;
+  width: 16rem;
+  max-width: 16rem;
   border: 1px solid rgb(232, 163, 255, 15%);
   border-radius: 0.4rem;
   margin: 0.4rem;
+  border-top: 2px solid black;
+}
+.portfol-text-bg {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.333858543417367) -12%,
+    rgba(32, 16, 27, 1) 0%,
+    rgba(32, 16, 27, 0.5383403361344538) 74%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 0px;
+  padding: 0px;
+  border-radius: 2px;
+  width: auto;
+}
+.portfol-item a {
+  background-color: rgba(0, 0, 0, 0.596);
+  border-radius: 10px;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
 }
 #portfol-item-1 {
-  /* background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
-  background-size: 100% 100%;
+  background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; */
+  background-position: center center;
 }
 #portfol-item-2 {
-  /* background-image: url("https://images.unsplash.com/photo-1543699539-33a389c5dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
-  background-size: 100% 100%;
+  background-image: url(./assets/atm2.avif);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; */
+  background-position: center center;
 }
 #portfol-item-3 {
-  /* background-image: url("https://images.unsplash.com/photo-1531594835867-65b60cc9e4ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
-  background-size: 100% 100%;
+  background-image: url("/src/assets/cards-game.avif");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; */
+  background-position: center center;
 }
 #portfol-item-4 {
-  /* background-image: url("https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
-  background-size: 100% 100%;
+  background-image: url("/src/assets/portfolio.avif");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; */
+  background-position: center center;
+}
+.portfol-item {
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.692);
+}
+.portfol-item h3 {
+  text-align: center;
+  margin-top: 0%;
+  padding: 0%;
+}
+.portfol-item p {
+  text-align: center;
+  margin-top: 2%;
 }
 
 .portfol-item p,
@@ -313,11 +349,11 @@ main h3 {
   /* height: 9rem; */
   font-weight: bold;
   color: white;
-  text-shadow: -1.2px 1.2px 0 rgb(0, 0, 0), 1.2px 1.2px 0 black,
-    1.2px 1.2px 0 black, 1.2px 1.2px 0 black;
+  text-shadow: -0.8px 0.8px 0 rgb(0, 0, 0), 0.8px 0.8px 0 black,
+    0.8px 0.8px 0 black, 0.8px 0.8px 0 black;
 }
 .portfol-spacing {
-  height: 5rem;
+  height: 3rem;
 }
 .portfol-list-container {
   display: flexbox;
@@ -366,8 +402,15 @@ aside p a {
   width: 30rem;
   margin-bottom: 14rem;
 }
-
+@media only screen and (max-width: 1140px) {
+  .portfol-text-bg p {
+    font-size: 16px;
+  }
+}
 @media only screen and (max-width: 768px) {
+  .portfol-text-bg p {
+    font-size: 16px;
+  }
   h3 {
     font-size: 16px;
   }
@@ -378,7 +421,7 @@ aside p a {
     display: flex;
     max-width: 100%;
   }
-  .portfol-item {
+  .portfol-item p {
   }
   .portfol-box {
   }
@@ -419,6 +462,9 @@ aside p a {
   }
   header h1 {
     font-size: 20px;
+  }
+  .portfol-text-bg p {
+    font-size: 16px;
   }
   .about-me-section {
     flex-wrap: wrap;
