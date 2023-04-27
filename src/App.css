@@ -326,6 +326,13 @@ main h3 {
   background-repeat: no-repeat;
   background-position: center center;
 }
+#portfol-item-5 {
+  background-image: url("/src/assets/web-api.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .portfol-item {
   padding: 0;
   border: 1px solid rgba(0, 0, 0, 0.692);
