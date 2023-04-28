@@ -13,45 +13,57 @@ function Education() {
           </div>
         </div>
         <div className="xp-container">
-          <h3>2. Agil systemutveckling i team</h3>
+          <h3>2. Agile development in teams.</h3>
           <div className="xpbar">
             <div id="xpbar-2"></div>
           </div>
         </div>
         <div className="xp-container">
-          <h3>3. Objektorienterad programmering</h3>
+          <h3>3. Objectorienterad programming</h3>
           <div className="xpbar">
             <div id="xpbar-3"></div>
           </div>
         </div>
         <div className="xp-container">
-          <h3>4. Databasutveckling och databasadministration</h3>
+          <h3>4. Database Development and DB Administration</h3>
           <div className="xpbar">
             <div id="xpbar-4"></div>
           </div>
         </div>
         <div className="xp-container">
-          <h3>5. Webbutveckling</h3>
+          <h3>5. Web Development</h3>
           <div className="xpbar">
             <div id="xpbar-5"></div>
           </div>
         </div>
         <div className="xp-container">
-          <h3>6. Avancerad .NET</h3>
+          <h3>6. Advanced .NET</h3>
           <div className="xpbar">
             <div id="xpbar-6"></div>
           </div>
         </div>
         <div className="xp-container">
-          <h3>7. Systemtestning</h3>
+          <h3>7. System Testing</h3>
           <div className="xpbar">
-            <div id="xpbar-7"></div>
+            <div id="xpbar-7">
+              <span>Not Initiated</span>
+            </div>
           </div>
         </div>
         <div className="xp-container">
-          <h3>8. Avancerad systemutveckling ASP.NET</h3>
+          <h3>8. Advanced development in ASP.NET</h3>
           <div className="xpbar">
-            <div id="xpbar-8"></div>
+            <div id="xpbar-8">
+              <span>Not Initiated</span>
+            </div>
+          </div>
+        </div>
+        <div className="xp-container">
+          <h3>9. Apprenticeship (LIA) </h3>
+          <div className="xpbar">
+            <div id="xpbar-9">
+              <span>Not Initiated</span>
+            </div>
           </div>
         </div>
       </section>

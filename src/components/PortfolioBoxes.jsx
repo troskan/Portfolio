@@ -181,6 +181,70 @@ function PortfolioBoxes() {
             </div>
           </div>
         </div>
+        <div className="box-container">
+          <div className="portfol-item" id="portfol-item-6">
+            <div className="portfol-text-bg">
+              <h3>Code First Database</h3>
+              <p>
+                Creating database through code first and with hidden junction
+                tables.
+              </p>
+            </div>
+            <div className="portfol-spacing"></div>
+            <div className="portfol-list-container">
+              <ul className="portfol-list">
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://github.com/troskan/Entity-Framework_Intermediate-Table"
+                  >
+                    Github Repo
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://github.com/troskan/Entity-Framework_Intermediate-Table"
+                  >
+                    Readme.md
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="box-container">
+          <div className="portfol-item" id="portfol-item-7">
+            <div className="portfol-text-bg">
+              <h3>Advent Of Code 2022</h3>
+              <p>
+                Christmas traditional Event where coder is challenged with 24
+                tasks.
+              </p>
+            </div>
+            <div className="portfol-spacing"></div>
+            <div className="portfol-list-container">
+              <ul className="portfol-list">
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://github.com/troskan/Entity-Framework_Intermediate-Table"
+                  >
+                    Github Repo
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://github.com/troskan/Entity-Framework_Intermediate-Table"
+                  >
+                    Readme.md
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
