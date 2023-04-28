@@ -228,7 +228,7 @@ function PortfolioBoxes() {
                 <li>
                   <a
                     target="_blank"
-                    href="https://github.com/troskan/Entity-Framework_Intermediate-Table"
+                    href="https://github.com/troskan/Advert-of-Code2022"
                   >
                     Github Repo
                   </a>
@@ -236,7 +236,7 @@ function PortfolioBoxes() {
                 <li>
                   <a
                     target="_blank"
-                    href="https://github.com/troskan/Entity-Framework_Intermediate-Table"
+                    href="https://github.com/troskan/Advert-of-Code2022"
                   >
                     Readme.md
                   </a>
